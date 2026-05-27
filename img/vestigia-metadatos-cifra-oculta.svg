@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect width="100%" height="100%" fill="#0d0d0b"/>
+  <g font-family="monospace" font-size="15" fill="#6b5a2e" opacity="0.55">
+    <text x="60" y="150">EXIF · ImageDescription</text>
+    <text x="60" y="185">— — — — — — — — — —</text>
+    <text x="60" y="230">UserComment: ·_·_</text>
+    <text x="60" y="300" fill="#c9a24a" opacity="0.9">XPKeywords: L · X · M · Y</text>
+    <text x="60" y="345">— — — — — — — — — —</text>
+    <text x="60" y="390">Software: vestigia/⟁</text>
+  </g>
+  <text x="60" y="520" font-family="monospace" font-size="18" fill="#6b5a2e">metadatos · cifra oculta</text>
+  <text x="60" y="548" font-family="monospace" font-size="13" fill="#6b5a2e" opacity="0.7">imagen de prueba · 600x600</text>
+</svg>

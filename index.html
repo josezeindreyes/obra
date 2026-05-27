@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VESTIGIA — una obra de José Alejandro Zeind Reyes</title>
+<meta name="description" content="VESTIGIA: obra de net.art distribuida de José Alejandro Zeind Reyes. Un rastro de señas repartidas por la red. El mapa se revela aquí.">
+<meta name="author" content="José Alejandro Zeind Reyes">
+<link rel="canonical" href="https://josezeindreyes.github.io/obra/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VESTIGIA — una obra de José Alejandro Zeind Reyes">
+<meta property="og:description" content="Net.art distribuida. Sigue el rastro de señas.">
+<meta property="og:url" content="https://josezeindreyes.github.io/obra/">
+<meta property="og:image" content="https://josezeindreyes.github.io/obra/img/vestigia-sello.svg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26' fill='%23c9a24a'%3E⟁%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"VisualArtwork","name":"VESTIGIA",
+  "artform":"Net.art / arte distribuido",
+  "creator":{"@type":"Person","name":"José Alejandro Zeind Reyes","alternateName":"José Alejandro Reyes","url":"https://josezeindreyes.github.io/"},
+  "url":"https://josezeindreyes.github.io/obra/","abstract":"Obra distribuida: un rastro de señas a través de la red.","isAccessibleForFree":true
+}
+</script>
+<style>
+  :root{--bg:#060607;--ink:#e9e4d6;--dim:#7c766a;--gold:#c9a24a;--line:#1a1a18}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:radial-gradient(130% 80% at 50% -8%,#15120b,#060607 55%);color:var(--ink);
+    font-family:"Cinzel",serif;line-height:1.7}
+  .mono{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  .sec{padding:9vh 0;border-bottom:1px solid var(--line)}
+  .center{text-align:center}
+  .glifo-xl{font-size:64px;color:var(--gold);text-shadow:0 0 40px rgba(201,162,74,.4)}
+  .frase{font-family:"JetBrains Mono",monospace;letter-spacing:.5em;text-transform:uppercase;font-size:11px;color:var(--gold);margin:26px 0 18px}
+  h1{font-size:clamp(46px,12vw,108px);letter-spacing:.12em;font-weight:700;line-height:1}
+  .q{font-style:italic;font-family:Georgia,serif;font-size:clamp(19px,3.4vw,26px);color:#d6cfbd;margin-top:24px}
+  h2{font-size:13px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
+  .body{font-family:Georgia,serif;font-size:18px;color:#cfc8b8}.body p{margin-bottom:16px;max-width:60ch}
+  .map{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--dim)}
+  .map div{border:1px solid var(--line);padding:18px;text-align:center}
+  .map b{color:var(--ink);display:block;font-size:22px;margin-bottom:8px}
+  .levels{counter-reset:l;font-family:"JetBrains Mono",monospace}
+  .levels div{display:grid;grid-template-columns:40px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);font-size:13px;color:#bdb6a6}
+  .levels div::before{counter-increment:l;content:counter(l);color:var(--gold)}
+  blockquote{font-family:Georgia,serif;font-style:italic;font-size:clamp(22px,4vw,34px);line-height:1.3;color:#e6dcc4;text-align:center;max-width:24ch;margin:0 auto}
+  .lock{max-width:420px;margin:0 auto;text-align:center}
+  .lock input{font-family:"JetBrains Mono",monospace;letter-spacing:.5em;text-transform:uppercase;text-align:center;width:100%;background:#0d0d0b;border:1px solid #2a2a24;color:var(--gold);font-size:22px;padding:14px;border-radius:3px;outline:none}
+  .lock input:focus{border-color:var(--gold)}
+  .lock button{margin-top:14px;font-family:"JetBrains Mono",monospace;letter-spacing:.2em;background:var(--gold);color:#0d0b06;border:0;padding:12px 26px;border-radius:3px;cursor:pointer;font-weight:700}
+  #out{margin-top:26px;min-height:54px}#out.ok{color:var(--gold)}#out .reveal-name{font-size:26px;letter-spacing:.06em}
+  .colofon{display:grid;grid-template-columns:1fr 1fr;gap:18px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--dim)}
+  .colofon b{color:var(--ink)}
+  a{color:var(--gold)}
+  .firma{font-family:"JetBrains Mono",monospace;letter-spacing:.3em;text-transform:uppercase;font-size:11px;color:var(--dim);text-align:center;padding:7vh 0}
+  /* — componentes ampliados — */
+  .manifiesto{font-family:Georgia,serif;font-size:18px;color:#cfc8b8;counter-reset:m}
+  .manifiesto p{position:relative;padding:14px 0 14px 46px;border-bottom:1px solid var(--line);max-width:62ch;margin:0 auto}
+  .manifiesto p::before{counter-increment:m;content:counter(m,decimal-leading-zero);position:absolute;left:0;top:16px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--gold)}
+  .vfig{margin:6px 0}
+  .vfig img{width:100%;display:block;border:1px solid var(--line);filter:grayscale(.25)}
+  .vfig figcaption{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin-top:10px;text-align:center}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .carto{display:grid;grid-template-columns:repeat(3,1fr);gap:0;font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--dim);text-align:center;margin-top:8px}
+  .carto span{padding:22px 8px;border:1px solid var(--line);position:relative}
+  .carto span b{display:block;color:var(--gold);font-size:18px;margin-bottom:8px}
+  .bitacora{font-family:"JetBrains Mono",monospace;font-size:13px;color:#bdb6a6}
+  .bitacora div{padding:16px 0;border-bottom:1px solid var(--line)}
+  .bitacora time{display:block;color:var(--gold);letter-spacing:.18em;font-size:11px;margin-bottom:7px}
+  .lexico dt{font-family:"JetBrains Mono",monospace;letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:var(--gold);margin-top:22px}
+  .lexico dd{font-family:Georgia,serif;font-size:17px;color:#cfc8b8;margin:5px 0 0;max-width:60ch}
+  .notas{list-style:none;font-family:Georgia,serif;font-size:17px;color:#cfc8b8}
+  .notas li{position:relative;padding:15px 0 15px 30px;border-bottom:1px solid var(--line);max-width:62ch}
+  .notas li::before{content:"⟁";position:absolute;left:0;top:15px;color:var(--gold);font-size:13px}
+  @media(max-width:640px){.map,.colofon,.grid2,.carto{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- 1 · HERO -->
+    <section class="sec center">
+      <div class="glifo-xl" title="⟁">⟁</div>
+      <div class="frase">Vestigia sequi · sigue las huellas</div>
+      <h1>VESTIGIA</h1>
+      <p class="q">Toda huella conduce a alguna parte.</p>
+    </section>
+
+    <!-- 2 · STATEMENT -->
+    <section class="sec body">
+      <h2 class="center">El hallazgo</h2>
+      <p>Seguiste una seña y llegaste lejos. Páginas que no se conocen entre sí, repartidas por la red, hablando de cosas distintas. Ninguna parecía ser la misma. Y sin embargo, algo se repetía.</p>
+      <p>Esto es <b style="color:var(--gold)">VESTIGIA</b>: una sola obra fragmentada en la web. Lo que tomaste por coincidencia —ecos dispersos, una misma huella— es el material de la pieza.</p>
+    </section>
+
+    <!-- 3 · QUÉ ES -->
+    <section class="sec body">
+      <h2 class="center">Qué es esta obra</h2>
+      <p>VESTIGIA no vive en un lugar: vive entre lugares. Cada fragmento se publica como si fuera autónomo —un texto, una imagen, un tema— y nada en su superficie delata que pertenece a algo mayor.</p>
+      <p>La obra es la red invisible que los une. No está en las páginas, sino en el trayecto que las conecta. El mapa solo existe para quien mira de cerca.</p>
+    </section>
+
+    <!-- 4 · MANIFIESTO NET.ART -->
+    <section class="sec">
+      <h2 class="center">Manifiesto</h2>
+      <div class="manifiesto">
+        <p>VESTIGIA se declara obra. No es una campaña, ni un juego de marca: es net.art —arte hecho con la red y para la red.</p>
+        <p>Su soporte no es la pantalla, sino el enlace. Vive en el espacio entre páginas, allí donde el navegante decide seguir o detenerse.</p>
+        <p>Cada fragmento finge autonomía. El disimulo es parte de la técnica: una obra que se esconde a plena vista exige otra forma de mirar.</p>
+        <p>No hay galería ni marco. El marco es el código fuente, los metadatos, la barra de direcciones. Lo invisible sostiene lo visible.</p>
+        <p>La pieza se completa en quien la recorre. Sin lectura no hay rastro; sin rastro no hay obra.</p>
+      </div>
+    </section>
+
+    <!-- 5 · LAS SEÑAS / EL MAPA -->
+    <section class="sec">
+      <h2 class="center">El mapa</h2>
+      <div class="map">
+        <div><b>⟁</b>La seña se repite, idéntica, en cada página.</div>
+        <div><b>·_·_</b>Algunas páginas esconden un signo.</div>
+        <div><b>4</b>Los signos, en orden, abren esta sala.</div>
+      </div>
+    </section>
+
+    <!-- 5 · CÓMO SE LEE (NIVELES) -->
+    <section class="sec">
+      <h2 class="center">Cómo se lee</h2>
+      <div class="levels">
+        <div>Notar que un mismo glifo aparece donde no debería.</div>
+        <div>Mirar el código: lo que el ojo no ve, la fuente lo guarda.</div>
+        <div>Descender a los metadatos de las imágenes.</div>
+        <div>Reunir los signos en su orden y abrir la cerradura.</div>
+      </div>
+    </section>
+
+    <!-- 7 · CARTOGRAFÍA -->
+    <section class="sec">
+      <h2 class="center">Cartografía</h2>
+      <figure class="vfig">
+        <img src="img/vestigia-cartografia-red-distribuida.svg" alt="Cartografía de la red distribuida de VESTIGIA: nodos dispersos enlazados a un centro dorado" loading="lazy" width="1200" height="630">
+        <figcaption>El centro no es un lugar; es la suma de los trayectos.</figcaption>
+      </figure>
+      <div class="carto">
+        <span><b>nodo</b>Cada página es un punto que se cree solo.</span>
+        <span><b>arista</b>El enlace que el ojo no traza pero existe.</span>
+        <span><b>centro</b>Esta sala: donde el rastro se reconoce.</span>
+      </div>
+    </section>
+
+    <!-- 8 · VESTIGIOS -->
+    <section class="sec">
+      <h2 class="center">Vestigios</h2>
+      <div class="grid2">
+        <figure class="vfig">
+          <img src="img/vestigia-glifo-rastro-oculto.svg" alt="Glifo ⟁ de VESTIGIA repetido como rastro oculto entre páginas" loading="lazy" width="600" height="600">
+          <figcaption>⟁ · la seña que se repite</figcaption>
+        </figure>
+        <figure class="vfig">
+          <img src="img/vestigia-fragmento-disperso.svg" alt="Fragmento disperso de la obra distribuida VESTIGIA" loading="lazy" width="600" height="600">
+          <figcaption>fragmento · lo que parecía suelto</figcaption>
+        </figure>
+      </div>
+      <figure class="vfig">
+        <img src="img/vestigia-metadatos-cifra-oculta.svg" alt="Metadatos de imagen con la cifra oculta L X M Y de VESTIGIA" loading="lazy" width="600" height="600">
+        <figcaption>metadatos · donde duerme la cifra</figcaption>
+      </figure>
+    </section>
+
+    <!-- 9 · PROCESO / BITÁCORA DEL RASTRO -->
+    <section class="sec">
+      <h2 class="center">Bitácora del rastro</h2>
+      <div class="bitacora">
+        <div><time>FASE I · siembra</time>Se dispersan las páginas. Cada una recibe el glifo idéntico y, algunas, un signo encubierto en la fuente o en los metadatos. Ninguna admite parentesco.</div>
+        <div><time>FASE II · deriva</time>Los fragmentos circulan solos. Buscadores los indexan por separado; el lazo permanece latente, esperando a una mirada que compare.</div>
+        <div><time>FASE III · sospecha</time>Alguien nota la repetición. La coincidencia se vuelve patrón; el patrón, intención. Empieza la lectura cercana del código.</div>
+        <div><time>FASE IV · reunión</time>Los signos se ordenan. La cerradura cede y la obra, por fin, se nombra. El rastro era el mensaje.</div>
+      </div>
+    </section>
+
+    <!-- 10 · LÉXICO -->
+    <section class="sec">
+      <h2 class="center">Léxico</h2>
+      <dl class="lexico">
+        <dt>Vestigio</dt>
+        <dd>Huella que algo dejó al pasar. Aquí, cada eco que delata la presencia de la obra mayor.</dd>
+        <dt>Seña</dt>
+        <dd>Marca deliberada —el glifo ⟁— sembrada para ser reconocida por quien sabe mirar.</dd>
+        <dt>Cifra</dt>
+        <dd>Signo oculto en código o metadatos. Aislado no dice nada; en orden, abre.</dd>
+        <dt>Trayecto</dt>
+        <dd>El recorrido entre fragmentos. No es decorado de la obra: es su materia.</dd>
+        <dt>Cerradura</dt>
+        <dd>Umbral donde el rastro se confirma y la autoría se revela.</dd>
+      </dl>
+    </section>
+
+    <!-- 11 · NOTAS DE LA OBRA -->
+    <section class="sec">
+      <h2 class="center">Notas de la obra</h2>
+      <ul class="notas">
+        <li>Lo distribuido no es un truco de difusión: es la forma. La dispersión dice algo que una sola página no podría decir.</li>
+        <li>El disimulo se ofrece, no se impone. Quien no busca, no encuentra; y eso también es parte de la pieza.</li>
+        <li>La web abierta es el medio. Mientras los enlaces resistan, la obra respira; cuando se rompan, quedará el vestigio.</li>
+        <li>Nada aquí pide credenciales ni paga. La única llave es la atención.</li>
+      </ul>
+    </section>
+
+    <!-- 12 · POÉTICA -->
+    <section class="sec">
+      <h2 class="center">Poética</h2>
+      <blockquote>“Toda obra deja huellas; pocas son, ellas mismas, la huella.”</blockquote>
+      <p class="q center" style="margin-top:28px;max-width:48ch;margin-left:auto;margin-right:auto">Mirar de cerca es ya un acto de la obra. El que sigue el rastro lo escribe.</p>
+    </section>
+
+    <!-- 13 · LA CERRADURA -->
+    <section class="sec">
+      <h2 class="center">La cerradura</h2>
+      <div class="lock">
+        <input id="key" maxlength="8" placeholder="· · · ·" autocomplete="off" aria-label="clave">
+        <br><button onclick="probar()">Abrir</button>
+        <div id="out" class="mono"></div>
+      </div>
+    </section>
+
+    <!-- 14 · COLOFÓN / CRÉDITOS -->
+    <section class="sec">
+      <h2 class="center">Colofón</h2>
+      <div class="colofon">
+        <div><b>Obra</b><br>VESTIGIA</div>
+        <div><b>Forma</b><br>Net.art / arte distribuido</div>
+        <div><b>Medio</b><br>La web abierta</div>
+        <div><b>Autoría</b><br>José Alejandro Zeind Reyes</div>
+      </div>
+    </section>
+
+    <!-- 15 · FIRMA -->
+    <div class="firma">Una obra de José Alejandro Zeind Reyes</div>
+  </div>
+
+<script>
+  var CLAVE = "LXMY";
+  function probar(){
+    var v = (document.getElementById('key').value || '').toUpperCase().replace(/[^A-Z0-9]/g,'');
+    var out = document.getElementById('out');
+    if(v === CLAVE){
+      out.className = 'mono ok';
+      out.innerHTML = '<div class="reveal-name">⟁ todo esto es VESTIGIA</div>'+
+        '<p style="font-family:Georgia,serif;font-style:italic;margin-top:10px">una obra de José Alejandro Zeind Reyes</p>'+
+        '<p style="margin-top:14px"><a href="https://josezeindreyes.github.io/">→ conoce al artista detrás del mapa</a></p>';
+    } else {
+      out.className = 'mono'; out.style.color = '#7c766a';
+      out.textContent = 'Aún no. Sigue las huellas.';
+    }
+  }
+  document.getElementById('key').addEventListener('keydown',function(e){ if(e.key==='Enter') probar(); });
+</script>
+</body>
+</html>
